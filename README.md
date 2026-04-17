@@ -90,11 +90,11 @@ That means:
 
 Without `brief`:
 
-> Your React component is likely re-rendering because each time the parent component renders, a new object reference is created when you pass an inline object as a prop...
+> In most early-stage SaaS products, a monolith is the better starting point because it reduces operational complexity, simplifies deployment, and allows teams to move faster while the product and organization are still changing rapidly...
 
 With `brief`:
 
-> Inline object prop creates a new reference on every render. React sees it as changed. Use `useMemo` or move the object outside render.
+> Start with a monolith. Faster to build, easier to debug, cheaper to run. Move to microservices only when scaling pain makes it worth it.
 
 Same point.
 Less noise.
